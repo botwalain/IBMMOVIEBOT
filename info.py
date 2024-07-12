@@ -51,8 +51,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vicky3:2003@cluster0.6yf0tdz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vicky3")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vicky4:vicky2003@cluster0.ixhdyed.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "vicky4")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vickybot')
 
 # Premium And Referal Settings
