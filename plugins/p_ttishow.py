@@ -252,18 +252,18 @@ async def unban_a_user(bot, message):
         await message.reply(f"Successfully unbanned {k.mention}")
     
 @Client.on_message(filters.command('users') & filters.user(ADMINS))
-async def list_users(bot: Client, message: Message):
+async def list_users(bot, message):
     # https://t.me/GetTGLink/4184
     raju = await message.reply('Getting List Of Users')
     users = await db.get_all_users()
     out = "Users Saved In DB Are:\n\n"
     async for user in users:
-        out += f"<a href='tg://user?id={user['id']}'>{user['name']}</a>"
+        out += f"<a href=tg://user?id={user['id']}>{user['name']}</a>"
         if user['ban_status']['is_banned']:
-            out += ' (Banned User)'
+            out += '( Banned User )'
         out += '\n'
     try:
-        await raju.edit_text(out, parse_mode='html')
+        await raju.edit_text(out)
     except MessageTooLong:
         with open('users.txt', 'w+') as outfile:
             outfile.write(out)
