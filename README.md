@@ -5,7 +5,7 @@
   IBM BOT SUPPORT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+IBMBOTUPPORT+GIT!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+IBM+BOT+SUPPORT+GIT)
 </p>
 
 ## Main Feature 
