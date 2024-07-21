@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-Filter-Bot Logo">
+  <img src="" alt="VJ-Filter-Bot Logo">
 </p>
 <h1 align="center">
-  VJ FILTER BOT
+  IBM BOT SUPPORT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+IBMBOTUPPORT+GIT!)
 </p>
 
 ## Main Feature 
@@ -31,9 +31,7 @@
 - [x] Custom Tutorial Button
 - [x] Bot Pm File Auto Delete 
 
-Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Update Regarding Repo.</b>
-
-### How To Deploy : [Video Tutorial](https://youtu.be/J5tiWdc_AWM)
+Join My <a href='https://telegram.dog/IBMBotSupport'>Update Channel</a> For More Update Regarding Repo.</b>
 
 ## Commands
 ```
@@ -114,12 +112,6 @@ Join My <a href='https://telegram.dog/vj_botz'>Update Channel</a> For More Updat
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/I36_OTWvT2w)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.</b>
-
-### Optional Variables
-* <b>`PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
-* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/VJBots/VJ-Filter-Bot/blob/Tech_VJ/info.py) for more optional variables.</b>
-
 
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
