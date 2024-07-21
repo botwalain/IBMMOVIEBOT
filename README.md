@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="" alt="VJ-Filter-Bot Logo">
-</p>
-<h1 align="center">
-  IBM BOT SUPPORT
+IBM BOT SUPPORT
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+IBM+BOT+SUPPORT+GIT)
